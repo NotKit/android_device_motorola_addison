@@ -338,6 +338,7 @@ service adspd /system/bin/adspd
    socket adspdsock stream 0660 system audio
    user audio
    group audio input diag
+   disabled
 
 # Set RPS Mask for Wifi Hotspot
 on property:sys.wifi.tethering=true
